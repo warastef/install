@@ -5,7 +5,6 @@ Function main() {
 
     if ($exists) {
         # Install programs
-        winget install -h -e --id Adobe.Acrobat.Reader.64-bit
         winget install -h -e --id Google.Chrome
         winget install -h -e --id BelgianGovernment.Belgium-eIDmiddleware
         winget install -h -e --id BelgianGovernment.eIDViewer
