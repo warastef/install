@@ -1,1 +1,1 @@
-[DOWNLOAD INSTALLER](https://raw.githubusercontent.com/warastef/install/main/install.ps1)
+[DOWNLOAD INSTALLER]((https://github.com/warastef/install/blob/master/install.ps1)
