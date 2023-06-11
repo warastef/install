@@ -1,5 +1,10 @@
 #Requires -RunAsAdministrator
 
+#install winget
+Invoke-WebRequest -Uri https://github.com/microsoft/winget-cli/releases/download/v1.3.2691/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle -OutFile $env:TEMP\winget.msixbundle
+Add-AppxPackage -Path $env:TEMP\winget.msixbundle
+
+#run winget
 Function main() {
     $exists = Test-CommandExists winget
 
