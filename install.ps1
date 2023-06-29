@@ -36,6 +36,8 @@ Function main() {
         winget uninstall Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe --accept-source-agreements --silent
         winget uninstall Microsoft.Office.OneNote_8wekyb3d8bbwe --accept-source-agreements --silent
         winget uninstall cortana --accept-source-agreements --silent
+        # Update allready existing programs
+        winget uprade --all
     }
 }
 
